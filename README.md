@@ -3,9 +3,10 @@
 - add linter
 - convert to typescript
 - convert to vite for speed
-- add test
+- add unit test
 - remove unnecessary code and structure
 - add commments for documentation
+- add end to end test for other browsers. now only works with chromium
 
 
 
