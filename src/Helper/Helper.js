@@ -39,13 +39,3 @@ export const customTimer = function(callback, delay) {
   this.setTimeout();
 };
 
-//   const timer = new customTimer((sec) => {
-
-//     console.log('seconds', sec)
-
-//     if (sec === 8) {
-//       timer.clear()
-
-//       console.log('Game over!')
-//     }
-//   }, 1000)

@@ -26,14 +26,11 @@ const Marker = (props) => {
     if (currentMarker && timer.current == null) {
     
       timer.current = new customTimer((sec) => {
-        console.log("seconds", sec);
-
         if (sec === currentMarker.duration) {
          //TODO add stop player and keep ref to it.
           timer.current.clear();
           timer.current = null;
           setCurrentMarker(null);
-         
         }
       }, 1000);
     }
