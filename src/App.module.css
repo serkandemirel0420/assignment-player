@@ -1,0 +1,12 @@
+.App{
+    width:768px;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+
+.border{
+    border: 1px solid grey;
+    padding: 5px;
+    margin:5px;
+}

@@ -1,0 +1,9 @@
+.marker{
+    display:flex;
+    justify-content:center;
+    margin: 10px;
+}
+
+.img{
+    width:100%;
+}

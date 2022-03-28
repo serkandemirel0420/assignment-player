@@ -1,0 +1,9 @@
+.timeline{
+    display:flex;
+    justify-content: center;
+}
+
+.range{
+    width: 50%;
+    margin: 0px 13px;
+}
