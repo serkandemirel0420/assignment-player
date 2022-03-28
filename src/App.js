@@ -39,8 +39,8 @@ function App() {
     <AppContext.Provider value={[podcastList, setPodcastList]}>
       <div className={Style.App}>
         <h1>App</h1>
-        {podcastLoad ? <h2> Loading... </h2> : null}
-        {podcastError ? <h2> Error </h2> : null}
+        {podcastLoad ? <h2> Loading... </h2> : ""}
+        {podcastError ? <h2> Error </h2> : ""}
         {podcastList.length &&
           podcastList.map((podcast, index) => (
             <div key={index} className={Style.border}>

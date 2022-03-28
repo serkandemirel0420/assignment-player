@@ -1,3 +1,15 @@
+##TODOs
+- use docker
+- add linter
+- convert to typescript
+- convert to vite for speed
+- add test
+- remove unnecessary code and structure
+- add commments for documentation
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
